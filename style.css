@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.promo {
+    margin-bottom: 70px;
+    color: red;
+}
+.background {
+    background: url('https://img.gazeta.ru/files3/160/13525160/AP_3906010289-pic_32ratio_900x600-900x600-38918.jpg') center/cover no-repeat;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.content {
+    background-color: white;
+    padding: 20px;
+}
+
+.round-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.round-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.foto1 {
+    margin-bottom: 20px;
+}
